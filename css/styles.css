@@ -1757,14 +1757,14 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.07);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
   padding: 12px 16px;
   transition: background 0.3s ease;
 }
 
 .carousel-slide:hover {
-  background: rgba(255, 255, 255, 0.13);
+  background: #fff;
 }
 
 .carousel-slide img {
