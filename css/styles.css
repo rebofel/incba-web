@@ -1732,7 +1732,7 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
 
 .clients-header h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
-  color: var(--text);
+  color: var(--text-on-dark);
 }
 
 .carousel-wrapper {
