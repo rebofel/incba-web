@@ -1779,6 +1779,13 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
   opacity: 1;
 }
 
+.carousel-slide.dark-card {
+  background: rgba(30, 45, 60, 0.85);
+}
+.carousel-slide.dark-card:hover {
+  background: rgba(30, 45, 60, 1);
+}
+
 @keyframes carouselScroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
